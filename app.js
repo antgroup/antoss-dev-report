@@ -160,7 +160,8 @@ document.addEventListener('DOMContentLoaded', function() {
                         showNotification('Failed to copy link. Please copy manually.');
                     });
             } else {
-                // Final fallback for older browsers
+                // Legacy fallback for older browsers that don't support Clipboard API
+                // Using deprecated document.execCommand('copy') intentionally for backwards compatibility
                 const tempInput = document.createElement('input');
                 tempInput.value = textToCopy;
                 document.body.appendChild(tempInput);
