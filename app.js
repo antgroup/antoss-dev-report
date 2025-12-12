@@ -149,17 +149,44 @@ document.addEventListener('DOMContentLoaded', function() {
                 url: window.location.href
             }).catch(err => console.log('Error sharing:', err));
         } else {
-            // Fallback: copy to clipboard
-            const tempInput = document.createElement('input');
-            tempInput.value = shareText + ' ' + window.location.href;
-            document.body.appendChild(tempInput);
-            tempInput.select();
-            document.execCommand('copy');
-            document.body.removeChild(tempInput);
+            // Fallback: copy to clipboard using modern Clipboard API
+            const textToCopy = shareText + ' ' + window.location.href;
             
-            // Show feedback
-            alert('Report link copied to clipboard! Share it with your community.');
+            if (navigator.clipboard && navigator.clipboard.writeText) {
+                navigator.clipboard.writeText(textToCopy)
+                    .then(() => showNotification('Report link copied to clipboard! Share it with your community.'))
+                    .catch(err => {
+                        console.error('Failed to copy:', err);
+                        showNotification('Failed to copy link. Please copy manually.');
+                    });
+            } else {
+                // Final fallback for older browsers
+                const tempInput = document.createElement('input');
+                tempInput.value = textToCopy;
+                document.body.appendChild(tempInput);
+                tempInput.select();
+                document.execCommand('copy');
+                document.body.removeChild(tempInput);
+                showNotification('Report link copied to clipboard! Share it with your community.');
+            }
         }
+    }
+
+    // Show notification toast
+    function showNotification(message) {
+        const notification = document.createElement('div');
+        notification.className = 'notification-toast';
+        notification.textContent = message;
+        document.body.appendChild(notification);
+        
+        // Trigger animation
+        setTimeout(() => notification.classList.add('show'), 10);
+        
+        // Remove after 3 seconds
+        setTimeout(() => {
+            notification.classList.remove('show');
+            setTimeout(() => document.body.removeChild(notification), 300);
+        }, 3000);
     }
 });
 
@@ -260,6 +287,27 @@ style.textContent = `
     .impact-section p {
         line-height: 1.8;
         color: var(--text-secondary);
+    }
+
+    .notification-toast {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        background: var(--text-color);
+        color: white;
+        padding: 16px 24px;
+        border-radius: 8px;
+        box-shadow: var(--shadow-lg);
+        opacity: 0;
+        transform: translateY(20px);
+        transition: all 0.3s ease;
+        z-index: 1000;
+        max-width: 400px;
+    }
+
+    .notification-toast.show {
+        opacity: 1;
+        transform: translateY(0);
     }
 `;
 document.head.appendChild(style);
