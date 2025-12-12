@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ant open source developers' annual report generation tool">
+    <title>Ant Open Source Developer Annual Report</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>🎉 Ant Open Source Developer Annual Report</h1>
+            <p class="subtitle">Share your beautiful coding memory with the community</p>
+        </header>
+
+        <main class="main-content">
+            <section class="intro-section">
+                <h2>Reflect Your Digital Memory</h2>
+                <p>Welcome to the Ant open source developers' annual report generation tool. 
+                   This tool helps you create and share your yearly contributions, 
+                   milestones, and beautiful coding memories with the community.</p>
+            </section>
+
+            <section class="form-section">
+                <h3>Generate Your Annual Report</h3>
+                <form id="reportForm">
+                    <div class="form-group">
+                        <label for="username">GitHub Username:</label>
+                        <input type="text" id="username" name="username" placeholder="Enter your GitHub username" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="year">Year:</label>
+                        <select id="year" name="year" required>
+                            <option value="2025">2025</option>
+                            <option value="2024">2024</option>
+                            <option value="2023">2023</option>
+                            <option value="2022">2022</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="organization">Organization (Optional):</label>
+                        <input type="text" id="organization" name="organization" placeholder="e.g., antgroup">
+                    </div>
+
+                    <button type="submit" class="btn-primary">Generate Report</button>
+                </form>
+            </section>
+
+            <section class="report-section" id="reportSection" style="display: none;">
+                <h3>Your Annual Report</h3>
+                <div id="reportContent" class="report-content">
+                    <!-- Report will be generated here -->
+                </div>
+                <button id="shareBtn" class="btn-secondary">Share Report</button>
+            </section>
+
+            <section class="features-section">
+                <h3>Features</h3>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">📊</div>
+                        <h4>Contribution Stats</h4>
+                        <p>View your commits, pull requests, and issues throughout the year</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🌟</div>
+                        <h4>Highlights</h4>
+                        <p>Celebrate your most impactful contributions and achievements</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🤝</div>
+                        <h4>Community Impact</h4>
+                        <p>See how your work has helped the open source community</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🎨</div>
+                        <h4>Beautiful Visuals</h4>
+                        <p>Share your coding journey with stunning visual reports</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <p>&copy; 2025 Ant Group. Released under the MIT License.</p>
+            <p>Share your small and beautiful open source memory with the community.</p>
+        </footer>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

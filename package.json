@@ -1,0 +1,22 @@
+{
+  "name": "antoss-dev-report",
+  "version": "1.0.0",
+  "description": "Ant open source developers' annual report generation tool",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx http-server . -p 8080 -o",
+    "build": "echo 'Build complete - static files ready for deployment'",
+    "lint": "echo 'No linting configured yet'"
+  },
+  "keywords": [
+    "annual-report",
+    "open-source",
+    "ant-group",
+    "developer-report"
+  ],
+  "author": "Ant Group",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
