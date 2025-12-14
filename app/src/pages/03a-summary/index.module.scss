@@ -1,0 +1,97 @@
+.screenContent {
+  .contributionGraph {
+    width: 256px;
+    height: 129px;
+  }
+}
+
+.paperContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 12px;
+
+  .topArea {
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+
+    .avatar {
+      width: 120px;
+    }
+
+    .userId {
+      font-size: 32px;
+    }
+  }
+
+  .centerArea {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-size: 32px;
+    flex-grow: 1;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 10%;
+    overflow-y: auto;
+    line-height: 1.25;
+    padding-bottom: 20px;
+
+    &.centered {
+      justify-content: center;
+    }
+
+    .number {
+      display: inline-block;
+      margin-left: 12px;
+      margin-right: 4px;
+      font-size: 56px;
+      color: $primary-color;
+      font-family: '04b_03';
+      transform: translateY(4px);
+    }
+  }
+
+  .bottomArea {
+    margin-bottom: 20px;
+    width: 713px;
+    box-sizing: border-box;
+    padding: 25px 128px;
+    background-color: #d7d7d7;
+    font-size: 45px;
+
+    .count {
+      margin-right: 4px;
+      display: inline-block;
+      transform: translateY(2px);
+      font-size: 60px;
+      color: $primary-color;
+      font-family: '04b_03';
+    }
+  }
+
+  a {
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+
+    &:hover {
+      transform: scale(1.1);
+      transition: all 0.2s ease;
+    }
+
+    .githubLogo {
+      margin: 0 4px;
+      width: 26px;
+      transform: translateY(5px);
+    }
+  }
+}

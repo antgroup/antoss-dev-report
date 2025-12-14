@@ -1,0 +1,128 @@
+.topArea {
+  position: relative;
+  height: 180px;
+  padding-top: 66px;
+  flex-grow: 1;
+
+  .flightGameScene {
+    position: absolute;
+    top: 66px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 650px;
+    height: calc(100% - 66px - 56px);
+    z-index: 2;
+
+    .scene {
+      width: 100%;
+      height: 100%;
+      object-fit: fill;
+    }
+
+    .monthLabelContainer {
+      position: absolute;
+      width: 170px;
+      height: 87.2%;
+      bottom: 9%;
+      left: 50%;
+      transform: translateX(-50%);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+      > *:nth-child(even) {
+        align-self: flex-start;
+      }
+      > *:nth-child(odd) {
+        align-self: flex-end;
+      }
+    }
+
+    .column {
+      position: absolute;
+      width: 200px;
+      height: 87.2%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      gap: 20px;
+    }
+
+    .leftColumn {
+      @extend .column;
+      bottom: 5%;
+      left: 30px;
+    }
+
+    .rightColumn {
+      @extend .column;
+      bottom: 9%;
+      right: 30px;
+    }
+  }
+
+  .retroComputer {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(calc(-50% - 10px));
+    width: 840px;
+    z-index: 1;
+  }
+
+  .toyPlane {
+    position: absolute;
+    bottom: -700px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 230px;
+    z-index: 3;
+  }
+}
+
+.bottomArea {
+  position: relative;
+  display: flex;
+  height: 178px;
+  padding-top: 44px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 22px;
+  font-size: 45px;
+  color: white;
+  background-color: $primary-color;
+
+  .textContainer {
+    text-align: center;
+    font-size: 45px;
+    color: white;
+    pointer-events: none;
+
+    .textContent {
+      display: inline-block;
+    }
+  }
+
+  .replayButton {
+    width: 180px;
+    // 移除移动端点击高亮
+    -webkit-tap-highlight-color: transparent;
+    // 防止文本选择
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    // 优化触摸交互
+    touch-action: manipulation;
+  }
+
+  .chessBoardPattern {
+    position: absolute;
+    bottom: -100px; // 抵消 footer logo 高度
+    left: 50%;
+    transform: translateX(-50%);
+    height: 100px;
+    background-color: $primary-color;
+  }
+}

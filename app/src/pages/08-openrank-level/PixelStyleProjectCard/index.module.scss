@@ -1,0 +1,72 @@
+.projectCard {
+  position: relative;
+  width: 140px;
+  height: 170px;
+  background-image: url('./project-card.svg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+  transform-origin: center;
+  transition: transform 0.2s ease;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+
+  .container {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 8px 6px 14px 22px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+
+    .repoLogo {
+      margin-top: 12px;
+      width: 70px;
+      height: 70px;
+    }
+
+    .repoFullName {
+      padding: 0 18px;
+      box-sizing: border-box;
+      font-size: 14px;
+      word-break: break-all;
+      font-family: '04b_03';
+      display: -webkit-box;
+      -webkit-line-clamp: 4;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: normal;
+    }
+  }
+
+  .badge {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #fff;
+    border: 3px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translate(30%, -25%);
+    overflow: hidden;
+  }
+
+  .badgeIcon {
+    width: 22px;
+    object-fit: contain;
+  }
+}

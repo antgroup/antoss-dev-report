@@ -1,0 +1,16 @@
+.pixelStyleMonthLabel {
+  position: relative;
+  width: 90px;
+  height: 55px;
+  background-image: url('./month-label.svg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .monthLabelText {
+    font-size: 38px;
+  }
+}

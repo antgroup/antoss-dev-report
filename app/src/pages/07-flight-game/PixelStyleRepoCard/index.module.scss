@@ -1,0 +1,79 @@
+.emptyCard {
+  width: 100%;
+  height: 100%;
+}
+
+.repoCard {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  color: inherit;
+
+  &:hover {
+    transform: scale(1.1) !important;
+    transition: transform 0.2s ease;
+  }
+
+  // 把背景图用 ::before 实现，左右都适配
+  &::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image: url('./top-border.svg');
+    background-size: 100% 36.2px;
+    background-repeat: no-repeat;
+    background-position: top center;
+    z-index: 0;
+    pointer-events: none;
+    // 默认不镜像，left
+    transform: none;
+  }
+
+  &.right::before {
+    // 镜像背景图
+    transform: scaleX(-1);
+  }
+
+  .repoAvatar {
+    position: absolute;
+    width: 53px;
+
+    &.left {
+      top: -14px;
+      left: -10px;
+    }
+
+    &.right {
+      top: -14px;
+      right: -10px;
+    }
+  }
+
+  .content {
+    border-radius: 12px;
+    background-color: white;
+
+    &.left {
+      border-left: 5px solid black;
+      border-bottom: 5px solid black;
+      margin-top: 24px;
+      margin-right: 32px;
+      padding: 12px 0 12px 12px;
+      box-sizing: border-box;
+    }
+
+    &.right {
+      border-right: 5px solid black;
+      border-bottom: 5px solid black;
+      margin-top: 24px;
+      margin-left: 32px;
+      padding: 12px 8px 12px 4px;
+    }
+
+    .repoName {
+      word-break: break-all;
+      font-size: 18px;
+    }
+  }
+}

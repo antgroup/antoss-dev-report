@@ -1,0 +1,27 @@
+.container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.codingMan {
+  position: relative;
+  width: 180px;
+  object-fit: contain;
+  z-index: 1;
+}
+
+.moon {
+  position: absolute;
+  width: 40px;
+  object-fit: contain;
+  z-index: 2;
+  // 初始位置在更靠上的位置
+  top: -35%;
+  left: 0;
+  // 使用 transform-origin 让动画更自然
+  transform-origin: center center;
+}

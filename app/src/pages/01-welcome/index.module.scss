@@ -1,0 +1,188 @@
+.pageLogo {
+  position: absolute !important;
+  bottom: 0;
+}
+
+.topArea {
+  position: relative;
+  padding: 37px 30px 0 30px;
+}
+
+.centerArea {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 200px;
+  flex-grow: 1;
+  padding-top: 87px;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    mask-image: radial-gradient(
+      ellipse at center,
+      transparent 0%,
+      rgba(0, 0, 0, 0.1) 15%,
+      rgba(0, 0, 0, 0.25) 30%,
+      rgba(0, 0, 0, 0.4) 45%,
+      rgba(0, 0, 0, 0.55) 60%,
+      rgba(0, 0, 0, 0.7) 75%,
+      rgba(0, 0, 0, 0.85) 90%,
+      rgba(0, 0, 0, 1) 100%
+    );
+    -webkit-mask-image: radial-gradient(
+      ellipse at center,
+      transparent 0%,
+      rgba(0, 0, 0, 0.1) 15%,
+      rgba(0, 0, 0, 0.25) 30%,
+      rgba(0, 0, 0, 0.4) 45%,
+      rgba(0, 0, 0, 0.55) 60%,
+      rgba(0, 0, 0, 0.7) 75%,
+      rgba(0, 0, 0, 0.85) 90%,
+      rgba(0, 0, 0, 1) 100%
+    );
+    z-index: 0;
+    pointer-events: none;
+  }
+
+  > * {
+    position: relative;
+    z-index: 1;
+  }
+
+  .welcome {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    gap: 20px;
+    padding-left: 86px;
+    font-size: 50px;
+    backdrop-filter: blur(2px);
+    transform: translateY(5px);
+
+    .firstLine {
+      display: flex;
+      align-items: center;
+
+      .logo {
+        width: 60px;
+        transform: translateY(-5px);
+        margin: 0 12px;
+      }
+
+      .textTypeInline {
+        display: inline;
+      }
+    }
+
+    .textTypeInline {
+      display: inline;
+    }
+
+    .year {
+      display: inline-block;
+      margin: 0 12px;
+      transform: translateY(5px);
+      color: $primary-color;
+      font-size: 74px;
+      font-family: '04b_03';
+      line-height: 50px;
+    }
+  }
+
+  .inputArea {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+
+    .input {
+      width: 537px;
+      height: 111px;
+      background-color: black;
+      border: none;
+      outline: none; /* 移除焦点时的轮廓 */
+      text-align: center;
+      border-radius: 20px;
+      font-size: 35px;
+      font-family: 'AlibabaPuHuiTi-3', sans-serif;
+      color: #fff;
+
+      &.largeFontSize {
+        font-size: 48px;
+      }
+
+      &:focus {
+        caret-color: rgba(255, 255, 255, 1); /* 改变光标颜色为白色 */
+      }
+
+      @mixin placeholder-text {
+        font-size: 40px;
+        color: rgba(255, 255, 255, 1);
+      }
+
+      &::-webkit-input-placeholder {
+        @include placeholder-text;
+      }
+
+      &:-moz-placeholder {
+        @include placeholder-text;
+      }
+
+      &::-moz-placeholder {
+        @include placeholder-text;
+      }
+
+      &:-ms-input-placeholder {
+        @include placeholder-text;
+      }
+    }
+
+    .button {
+      width: 111px;
+      height: 111px;
+      background-color: black;
+      border-radius: 20px;
+      overflow: hidden;
+
+      &[data-pressed='true'] {
+        background-color: #333;
+      }
+
+      .paperPlane {
+        width: 58px;
+        user-select: none;
+      }
+    }
+  }
+}
+
+.bottomArea {
+  position: relative;
+  height: 650px;
+
+  .retroComputer {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 84.5px;
+    width: 650px;
+  }
+
+  .footerBar {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 130px;
+    background: rgba(0, 0, 0, 0.45);
+  }
+}

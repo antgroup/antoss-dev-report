@@ -1,0 +1,30 @@
+.container {
+  position: relative;
+  display: inline-block;
+}
+
+.badge {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: max(25%, 20px);
+  aspect-ratio: 1; // 保持圆形
+  border-radius: 50%;
+  background-color: #fff;
+  border: 1px solid #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translate(25%, -25%);
+  overflow: hidden;
+}
+
+.badgeIcon {
+  width: 60%;
+  object-fit: contain;
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}

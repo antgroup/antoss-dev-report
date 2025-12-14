@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="69px" height="69px" viewBox="0 0 69 69" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>编组备份 4</title>
+    <defs>
+        <polygon id="path-1" points="8.92584947 57 8.92584947 51.7760756 5.32076707 51.7760756 5.32076707 47.4864555 0 47.4864555 0 9.07374689 3.60990777 9.07374689 3.60990777 4.42400268 8.92584947 4.42400268 8.92584947 -7.91033905e-16 47.5126699 0 47.5126699 3.89374984 52.7878706 3.89374984 52.7878706 8.42387028 57 8.42387028 57 45.6849639 57 46.8292741 54.062541 46.8292741 54.062541 51.0443192 48.2843981 51.0443192 48.2843981 57"></polygon>
+        <filter x="-23.9%" y="-22.1%" width="133.7%" height="133.7%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="1.60522273" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="-4" dy="-3" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.25 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="编组备份-6" transform="translate(-1230.6984, -510)">
+            <g id="ecb3fd0a6523c5df74e3ff3d21566a1e9bf331a836aae-sNWcu7_fw1200-+-ecb3fd0a6523c5df74e3ff3d21566a1e9bf331a836aae-sNWcu7_fw1200备份-2-+-矩形-3蒙版" transform="translate(1, 0)">
+                <g transform="translate(-0.3016, 0)">
+                    <g id="编组" transform="translate(630.3016, 511)">
+                        <g id="编组备份-4" transform="translate(631.5, 29.5) scale(-1, 1) rotate(-90) translate(-631.5, -29.5)translate(603, 1)">
+                            <g id="路径">
+                                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                                <use stroke="#000000" stroke-width="3.21044547" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                            </g>
+                            <path d="M32.2000102,13.6518248 L32.2000102,17.9292958 L37.1495946,17.9292958 L37.1495946,23.1207656 L40.9856339,23.1207656 L40.9856339,27.6836914 L44.4222976,27.6836914 L44.4222976,31.5647881 L47.5,31.5647881 L47.5,34.6528483 L31.6665556,34.7308248 L31.6666667,34.7575311 L29.0275556,34.7438248 L26.3888889,34.7575311 L26.3885556,34.7308248 L10.5555556,34.6528483 L10.5555556,31.5647881 L13.6332579,31.5647881 L13.6332579,27.6836914 L17.0699217,27.6836914 L17.0699217,23.1207656 L20.9059609,23.1207656 L20.9059609,17.9292958 L25.8555453,17.9292958 L25.8555453,13.6518248 L32.2000102,13.6518248 Z" id="形状结合" fill="#000000"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

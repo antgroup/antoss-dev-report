@@ -1,0 +1,47 @@
+.topContent {
+  margin: 50px 50px 0 50px;
+  font-size: 40px;
+  font-family: 'Alibaba-PuHuiTi-2';
+
+  .year {
+    font-size: 130px;
+    color: $primary-color;
+    font-family: '04b_03';
+  }
+}
+
+.paperContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 12px;
+
+  .topArea {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 32px;
+    height: 200px;
+
+    .timespan {
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      min-width: 240px;
+      transform: translateY(1px);
+      font-size: 40px;
+      font-family: '04b_03';
+      color: $primary-color;
+    }
+  }
+
+  .bottomArea {
+    .codeWhirlwind {
+      width: 550px;
+      transform: translateX(-10px);
+    }
+  }
+}

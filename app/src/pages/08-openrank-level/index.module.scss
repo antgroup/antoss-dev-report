@@ -1,0 +1,158 @@
+.topArea {
+  position: relative;
+  padding: 40px 40px 0 40px;
+  box-sizing: border-box;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+
+  .logo {
+    position: absolute;
+    top: 35px;
+    left: 45px;
+    height: 50px;
+    backdrop-filter: blur(2px);
+  }
+
+  .goldMedal {
+    position: absolute;
+    top: 0;
+    width: 180px;
+    right: 40px;
+    transform-origin: center;
+  }
+
+  .user {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+    margin-top: 90px;
+    margin-right: 90px;
+
+    .avatar {
+      width: 175px;
+    }
+
+    .userId {
+      font-size: 40px;
+      text-align: center;
+      display: block;
+      width: 100%;
+    }
+  }
+
+  .centerArea {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .openrankLevelContainer {
+      width: 100%;
+      height: 360px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 40px;
+      font-size: 40px;
+      background-image: url('./openrank-level-banner.svg');
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-color: #e8e8e8;
+      transform-origin: center;
+
+      .label {
+        background-image: url('./label-banner.png');
+        width: 217px;
+        height: 63px;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 40px;
+      }
+
+      .openRank {
+        display: flex;
+        align-items: center;
+
+        .openRankValue {
+          color: $primary-color;
+          font-family: '04b_03';
+          font-size: 60px;
+        }
+      }
+
+      .level {
+        display: flex;
+        align-items: center;
+
+        .levelValue {
+          color: $primary-color;
+          font-size: 50px;
+        }
+      }
+    }
+  }
+}
+
+.bottomArea {
+  position: relative;
+  height: 730px;
+  box-sizing: border-box;
+  overflow: hidden;
+
+  .footer {
+    height: 104px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e8e8e8;
+
+    .gameController {
+      height: 75px;
+    }
+  }
+}
+
+.scrollContainer {
+  position: relative;
+  border: 6px solid black;
+  box-sizing: border-box;
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: $primary-color;
+}
+
+.scrollRow {
+  position: relative;
+  width: 100%;
+  height: 192px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.marquee {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+
+  :global(.rfm-child) {
+    margin-right: 90px;
+  }
+}
+
+.projectCard {
+  display: inline-block;
+  flex-shrink: 0;
+}

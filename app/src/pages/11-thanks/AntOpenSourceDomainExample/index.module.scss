@@ -1,0 +1,22 @@
+.antOpenSourceDomainExample {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 32px;
+
+  .domain {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: $primary-color;
+
+    .rightArrow {
+      width: 20px;
+    }
+  }
+
+  .projectNames {
+    margin-left: 30px;
+    font-size: 28px;
+  }
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100%" height="100%" viewBox="0 0 577 85" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none">
+    <title>路径备份</title>
+    <defs>
+        <linearGradient x1="44.4343028%" y1="0.958795939%" x2="58.5221517%" y2="101.872266%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#FEFEFE" offset="57.9652382%"></stop>
+            <stop stop-color="#E0E0E0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="如果没有打开过issue-PR" transform="translate(-92, -643)" fill="#FFFFFF" stroke="#000000">
+            <g id="编组" transform="translate(95, 645)">
+                <path d="M534.245992,1.09829281 L539.918231,1.09829281 L539.918232,-0.5 L560.960054,-0.5 L560.960053,4.01816103 L567.799849,4.01816061 L567.799849,10.5175222 L572.5,10.5175219 L572.5,53.1517108 L568.908324,53.1517106 L568.908325,59.346755 L560.960053,59.3467547 L560.960054,63.2409616 L505.034655,63.2409613 L489.680076,78.449033 L488.094206,80.0197712 L487.238983,77.9580254 L481.134268,63.2409613 L36.8846574,63.2409616 L36.8846577,61.6751397 L30.7782422,61.6751397 L30.7782421,64.500631 L11.3966196,64.500631 L11.39662,59.3467547 L3.82489575,59.346755 L3.82489605,53.1517106 L-1.5,53.1517108 L-1.5,10.5175219 L4.51373158,10.5175222 L4.51373119,4.16476521 L12.0966272,4.16476532 L12.096627,-0.5 L534.245992,-0.5 Z" id="路径备份" stroke-width="3"></path>
+            </g>
+        </g>
+    </g>
+</svg>

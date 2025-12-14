@@ -1,0 +1,25 @@
+.envelopeLetter {
+  position: relative;
+  background-image: url('./envelope-and-letter.svg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 760px;
+  height: 1290px;
+  padding: 320px 50px 140px 160px;
+  box-sizing: border-box;
+
+  .topRightMedal {
+    position: absolute;
+    top: 239px;
+    right: 38px;
+    width: 145px;
+  }
+
+  .backgroundMedal {
+    position: absolute;
+    top: 650px;
+    right: 45px;
+    width: 370px;
+  }
+}

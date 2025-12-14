@@ -1,0 +1,28 @@
+.container {
+  width: 100%;
+  height: 100%; // 填满父容器
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(28, 1fr);
+  grid-template-rows: repeat(13, 1fr);
+  gap: 0; // 无间隙
+  width: 100%;
+  height: 100%; // 填满容器
+}
+
+.cell {
+  width: 100%;
+  height: 100%; // 填满grid单元格，不保持正方形
+  border-radius: 0; // 移除圆角，让格子紧密贴合
+
+  &:hover {
+    transform: scale(1.1);
+    z-index: 1;
+    position: relative;
+  }
+}

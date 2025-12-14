@@ -1,0 +1,41 @@
+@use 'sass:math';
+
+$background-color: white;
+$primary-color: #1677ff;
+$iphone6-ratio: math.div(375, 667);
+$iphone12-ratio: math.div(390, 844);
+// 设计稿的比例
+$design-ratio: math.div(750, 1624);
+
+@mixin hide-in-short-screen {
+  @media (min-aspect-ratio: 450/916) and (max-aspect-ratio: $iphone6-ratio) {
+    display: none;
+  }
+}
+
+@mixin show-in-short-screen {
+  @media not (min-aspect-ratio: 450/916) {
+    display: none;
+  }
+}
+
+// 文字缓动出现动画
+:global(.easeIn) {
+  animation-name: easeInKey;
+  animation-duration: 0.5s;
+  animation-timing-function: cubic-bezier(0, 0, 0.5, 1);
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: both;
+}
+
+@keyframes easeInKey {
+  0% {
+    transform: translateY(2vw);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}

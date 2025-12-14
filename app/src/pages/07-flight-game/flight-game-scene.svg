@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100%" height="100%" viewBox="0 0 665 1227" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none">
+    <title>编组</title>
+    <defs>
+        <linearGradient x1="44.4343028%" y1="0.958795939%" x2="58.5221517%" y2="101.872266%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#FEFEFE" offset="57.9652382%"></stop>
+            <stop stop-color="#E0E0E0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="优先级靠后做" transform="translate(-56, -61)">
+            <g id="编组" transform="translate(60, 65)">
+                <g>
+                    <g transform="translate(-11, 1)" fill="#FFFFFF" id="路径备份" stroke="#000000" stroke-width="4.44430693">
+                        <g>
+                            <path d="M911.125239,281.76923 L915.646227,281.76923 L915.646227,278.804684 L938.742032,278.804684 L938.742031,287.185058 L945.81296,287.185058 L945.812959,299.240203 L950.67194,299.240202 L950.67194,917.621738 L946.958893,917.621737 L946.958894,929.112428 L938.742031,929.112428 L938.742032,936.33548 L-231.567226,936.33548 L-231.567226,933.431163 L-236.537061,933.431163 L-236.537062,938.67194 L-257.916565,938.67194 L-257.916564,929.112428 L-265.744155,929.112428 L-265.744155,917.621737 L-271.248991,917.621738 L-271.248991,299.240202 L-265.032042,299.240203 L-265.032042,287.456983 L-257.192902,287.456984 L-257.192902,278.804684 L911.125239,278.804684 Z" transform="translate(339.7115, 608.7383) rotate(90) translate(-339.7115, -608.7383)"></path>
+                        </g>
+                    </g>
+                    <g transform="translate(249, 1)">
+                        <polygon id="路径" fill="#1677FF" points="55 912 38 912 38 428 73 428 73 0 108 0 108 429 73 429 73 946 99 946 99 958 122 958 122 1214 15 1214 15 958 38 958 38 946 55 946"></polygon>
+                        <rect id="矩形-7备份-5" fill="#000000" x="23" y="428" width="15" height="484"></rect>
+                        <rect id="矩形-7备份-24" fill="#000000" x="0" y="952" width="15" height="268"></rect>
+                        <rect id="矩形-7备份-16" fill="#000000" x="73" y="474" width="15" height="484"></rect>
+                        <rect id="矩形-7备份-7" fill="#000000" x="103" y="122" width="15" height="289"></rect>
+                        <rect id="矩形-7备份-9" fill="#000000" x="45" y="0" width="15" height="122"></rect>
+                        <rect id="矩形-7备份-21" fill="#000000" x="118" y="0" width="15" height="122"></rect>
+                        <rect id="矩形-7备份-8" fill="#000000" x="90" y="411" width="15" height="21"></rect>
+                        <rect id="矩形-7备份-14" fill="#000000" x="78" y="432" width="15" height="21"></rect>
+                        <rect id="矩形-7备份-15" fill="#000000" x="61" y="453" width="15" height="21"></rect>
+                        <rect id="矩形-7备份-10" fill="#000000" x="15" y="408" width="15" height="21"></rect>
+                        <rect id="矩形-7备份-11" fill="#000000" x="30" y="390" width="15" height="21"></rect>
+                        <rect id="矩形-7备份-12" fill="#000000" x="45" y="369" width="15" height="21"></rect>
+                        <rect id="矩形-7备份-13" fill="#000000" x="58" y="122" width="15" height="247"></rect>
+                        <rect id="矩形-7备份-6" fill="#000000" x="88" y="911" width="15" height="35"></rect>
+                        <rect id="矩形-7备份-22" fill="#000000" x="38" y="911" width="15" height="35"></rect>
+                        <rect id="矩形-7备份-18" fill="#000000" x="114" y="958" width="15" height="256"></rect>
+                        <rect id="矩形-7备份-17" fill="#000000" x="99" y="946" width="30" height="12"></rect>
+                        <rect id="矩形-7备份-23" fill="#000000" x="8" y="946" width="30" height="12"></rect>
+                        <rect id="矩形-7备份-2" fill="#1677FF" x="61" y="0" width="57" height="122"></rect>
+                    </g>
+                    <g transform="translate(1, 1053)" fill="#000000">
+                        <g>
+                            <rect id="矩形-4" x="0" y="9.4" width="30.2888889" height="9.4"></rect>
+                            <rect id="矩形-4备份" x="29.2444444" y="0" width="30.2888889" height="9.4"></rect>
+                            <rect id="矩形-4备份-2" x="59.5333333" y="9.4" width="9.4" height="9.4"></rect>
+                            <rect id="矩形-4备份-4" x="59.5333333" y="34.4666667" width="9.4" height="9.4"></rect>
+                            <rect id="矩形-4备份-6" x="84.6" y="52.2222222" width="9.4" height="9.4"></rect>
+                            <rect id="矩形-4备份-8" x="110.711111" y="69.9777778" width="9.4" height="9.4"></rect>
+                            <rect id="矩形-4备份-9" x="101.311111" y="78.3333333" width="9.4" height="9.37777778"></rect>
+                            <rect id="矩形-4备份-11" x="158.755556" y="85.6222222" width="9.4" height="9.4"></rect>
+                            <rect id="矩形-4备份-12" x="168.155556" y="95.0222222" width="9.4" height="9.4"></rect>
+                            <rect id="矩形-4备份-20" x="275.733333" y="111.733333" width="9.4" height="18.8"></rect>
+                            <rect id="矩形-4备份-22" x="310.2" y="139.933333" width="9.4" height="15.6666667"></rect>
+                            <rect id="矩形-4备份-23" x="319.6" y="155.6" width="9.4" height="9.4"></rect>
+                            <rect id="矩形-4备份-14" x="166.066667" y="113.822222" width="9.4" height="9.4"></rect>
+                            <rect id="矩形-4备份-15" x="195.311111" y="121.133333" width="9.4" height="9.4"></rect>
+                            <rect id="矩形-4备份-16" x="204.711111" y="113.822222" width="9.4" height="9.4"></rect>
+                            <rect id="矩形-4备份-17" x="210.977778" y="104.422222" width="9.4" height="9.4"></rect>
+                            <rect id="矩形-4备份-5" x="67.8888889" y="43.8666667" width="16.7111111" height="9.4"></rect>
+                            <rect id="矩形-4备份-7" x="94" y="61.6222222" width="16.7111111" height="9.4"></rect>
+                            <rect id="矩形-4备份-10" x="120.111111" y="78.3333333" width="38.6444444" height="9.37777778"></rect>
+                            <rect id="矩形-4备份-13" x="175.466667" y="104.422222" width="29.2444444" height="9.4"></rect>
+                            <rect id="矩形-4备份-19" x="259.022222" y="104.422222" width="16.7111111" height="9.4"></rect>
+                            <rect id="矩形-4备份-18" x="220.377778" y="95.0222222" width="38.6444444" height="9.4"></rect>
+                            <rect id="矩形-4备份-21" x="285.133333" y="130.533333" width="25.0666667" height="9.4"></rect>
+                            <rect id="矩形-4备份-3" x="68.9333333" y="17.7555556" width="9.4" height="16.7111111"></rect>
+                        </g>
+                        <g id="编组备份-23" transform="translate(493.5, 82.5) scale(-1, 1) translate(-493.5, -82.5)translate(329, 0)">
+                            <rect id="矩形-4" x="0" y="9.4" width="30.2888889" height="9.4"></rect>
+                            <rect id="矩形-4备份" x="29.2444444" y="0" width="30.2888889" height="9.4"></rect>
+                            <rect id="矩形-4备份-2" x="59.5333333" y="9.4" width="9.4" height="9.4"></rect>
+                            <rect id="矩形-4备份-4" x="59.5333333" y="34.4666667" width="9.4" height="9.4"></rect>
+                            <rect id="矩形-4备份-6" x="84.6" y="52.2222222" width="9.4" height="9.4"></rect>
+                            <rect id="矩形-4备份-8" x="110.711111" y="69.9777778" width="9.4" height="9.4"></rect>
+                            <rect id="矩形-4备份-9" x="101.311111" y="78.3333333" width="9.4" height="9.37777778"></rect>
+                            <rect id="矩形-4备份-11" x="158.755556" y="85.6222222" width="9.4" height="9.4"></rect>
+                            <rect id="矩形-4备份-12" x="168.155556" y="95.0222222" width="9.4" height="9.4"></rect>
+                            <rect id="矩形-4备份-20" x="275.733333" y="111.733333" width="9.4" height="18.8"></rect>
+                            <rect id="矩形-4备份-22" x="310.2" y="139.933333" width="9.4" height="15.6666667"></rect>
+                            <rect id="矩形-4备份-23" x="319.6" y="155.6" width="9.4" height="9.4"></rect>
+                            <rect id="矩形-4备份-14" x="166.066667" y="113.822222" width="9.4" height="9.4"></rect>
+                            <rect id="矩形-4备份-15" x="195.311111" y="121.133333" width="9.4" height="9.4"></rect>
+                            <rect id="矩形-4备份-16" x="204.711111" y="113.822222" width="9.4" height="9.4"></rect>
+                            <rect id="矩形-4备份-17" x="210.977778" y="104.422222" width="9.4" height="9.4"></rect>
+                            <rect id="矩形-4备份-5" x="67.8888889" y="43.8666667" width="16.7111111" height="9.4"></rect>
+                            <rect id="矩形-4备份-7" x="94" y="61.6222222" width="16.7111111" height="9.4"></rect>
+                            <rect id="矩形-4备份-10" x="120.111111" y="78.3333333" width="38.6444444" height="9.37777778"></rect>
+                            <rect id="矩形-4备份-13" x="175.466667" y="104.422222" width="29.2444444" height="9.4"></rect>
+                            <rect id="矩形-4备份-19" x="259.022222" y="104.422222" width="16.7111111" height="9.4"></rect>
+                            <rect id="矩形-4备份-18" x="220.377778" y="95.0222222" width="38.6444444" height="9.4"></rect>
+                            <rect id="矩形-4备份-21" x="285.133333" y="130.533333" width="25.0666667" height="9.4"></rect>
+                            <rect id="矩形-4备份-3" x="68.9333333" y="17.7555556" width="9.4" height="16.7111111"></rect>
+                        </g>
+                    </g>
+                </g>
+                <polygon id="路径" fill="#FFFFFF" points="399.977778 1157.42222 399.977778 1166.82222 383.266667 1166.82222 383.266667 1183.53333 373.866667 1183.53333 373.866667 1192.93333 348.8 1192.93333 348.8 1208.6 339.4 1208.6 339.4 1218.47662 399.977778 1218"></polygon>
+                <polygon id="路径备份-2" fill="#FFFFFF" transform="translate(270.8501, 1187.9494) scale(-1, 1) translate(-270.8501, -1187.9494)" points="319.977778 1157.42222 282.300244 1166.82222 265.589133 1166.82222 265.589133 1183.53333 256.189133 1183.53333 256.189133 1192.93333 231.122466 1192.93333 231.122466 1208.6 221.722466 1208.6 221.722466 1218.47662 319.977778 1218"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

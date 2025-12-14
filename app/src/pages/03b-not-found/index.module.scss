@@ -1,0 +1,115 @@
+.screenContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 12px;
+  width: 100%;
+
+  .errorCode {
+    font-size: 120px;
+    font-family: '04b_03';
+    color: $primary-color;
+    transform: translateY(8px);
+  }
+
+  .notFound {
+    font-size: 34.5px;
+    font-family: 'Supermagnet-Fat';
+  }
+}
+
+.paperContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 12px;
+  gap: 60px;
+
+  .topArea {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-size: 38px;
+
+    .year {
+      margin-left: 12px;
+      margin-right: 4px;
+      font-size: 60px;
+      color: $primary-color;
+      font-family: '04b_03';
+    }
+  }
+
+  .centerArea {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 34px;
+    gap: 20px;
+
+    .url {
+      box-sizing: border-box;
+      padding: 14px 38px;
+      width: 713px;
+      background-color: #d7d7d7;
+      font-size: 40px;
+      font-family: 'Supermagnet-Fat';
+      word-wrap: break-word;
+      text-decoration: none;
+      color: inherit;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  .buttonArea {
+    min-height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .backButton {
+      width: 150px;
+      // 移除移动端点击高亮
+      -webkit-tap-highlight-color: transparent;
+      // 防止文本选择
+      user-select: none;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      // 优化触摸交互
+      touch-action: manipulation;
+    }
+  }
+
+  .bottomArea {
+    font-size: 18px;
+
+    a {
+      display: inline-block;
+      text-decoration: none;
+      color: inherit;
+
+      &:hover {
+        transform: scale(1.1);
+        transition: all 0.2s ease;
+      }
+
+      .githubLogo {
+        margin: 0 4px;
+        width: 26px;
+        transform: translateY(5px);
+      }
+    }
+  }
+}

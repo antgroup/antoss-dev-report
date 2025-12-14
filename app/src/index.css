@@ -1,0 +1,62 @@
+/** 定义04b_03字体 */
+@font-face {
+  font-family: '04b_03';
+  src: url('/fonts/04b_03.ttf') format('truetype');
+  font-weight: normal; /* 正常字重 */
+  font-style: normal; /* 正常样式 */
+}
+
+/** 定义钉钉进步体字体 */
+@font-face {
+  font-family: 'DingTalk-JinBuTi';
+  src: url('/fonts/DingTalk-JinBuTi.ttf') format('truetype');
+  font-weight: normal; /* 正常字重 */
+  font-style: normal; /* 正常样式 */
+}
+
+/* 定义阿里巴巴普惠体 Regular 字体 */
+@font-face {
+  font-family: 'AlibabaPuHuiTi-3';
+  src: url('/fonts/AlibabaPuHuiTi-3-55-Regular.ttf') format('truetype');
+  font-weight: normal; /* 正常字重 */
+  font-style: normal; /* 正常样式 */
+}
+
+/* 定义阿里巴巴普惠体 Bold 字体 */
+@font-face {
+  font-family: 'AlibabaPuHuiTi-3';
+  src: url('/fonts/AlibabaPuHuiTi-3-85-Bold.ttf') format('truetype');
+  font-weight: bold; /* 加粗字重 */
+  font-style: normal; /* 正常样式 */
+}
+
+/* 定义 Supermagnet-Fat 字体 */
+@font-face {
+  font-family: 'Supermagnet-Fat';
+  src: url('/fonts/Supermagnet-Fat.ttf') format('truetype');
+  font-weight: normal; /* 正常字重 */
+  font-style: normal; /* 正常样式 */
+}
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+  background-color: white;
+  font-family: 'DingTalk-JinBuTi'; /* 设置全局字体为钉钉进步体 */
+  user-select: none;
+}
+
+#root {
+  height: 100%;
+}
+
+/* 禁止拖拽所有图片 */
+img {
+  pointer-events: none; /* 阻止拖拽 */
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #e0e0e0 transparent;
+}

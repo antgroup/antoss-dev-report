@@ -1,0 +1,121 @@
+.paperContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 40px;
+  gap: 40px;
+
+  .topArea {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 32px;
+
+    .favRepoIsAntRepo {
+      position: relative;
+      left: 35%;
+      width: 358px;
+    }
+
+    .repo {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      text-decoration: none;
+      color: inherit;
+
+      .favRepoLogo {
+        width: 58px;
+      }
+    }
+
+    .activeDays {
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      min-width: 80px;
+      margin-left: 8px;
+      transform: translateY(1px);
+      font-size: 40px;
+      font-family: '04b_03';
+      color: $primary-color;
+    }
+  }
+
+  .centerArea {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    gap: 20px;
+    width: 100%;
+    box-sizing: border-box;
+
+    .collaboratorCount {
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      min-width: 100px;
+      font-size: 40px;
+      color: $primary-color;
+      font-family: '04b_03';
+      transform: translateY(1px);
+    }
+
+    .pixelStyleContainer {
+      width: 543px;
+    }
+
+    .collaborators {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      width: 100%;
+      box-sizing: border-box;
+      padding: 30px 20px;
+
+      .collaboratorItem {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        width: 130px;
+
+        .collaboratorAvatar {
+          width: 110px;
+          flex-shrink: 0;
+        }
+
+        .collaboratorName {
+          font-size: 28px;
+          word-break: break-all;
+        }
+      }
+    }
+  }
+
+  .bottomArea {
+    font-size: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+
+    .languageContainer {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 14px;
+
+      .languageItem {
+        color: $primary-color;
+      }
+    }
+  }
+}

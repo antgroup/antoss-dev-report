@@ -1,0 +1,102 @@
+.topContent {
+  margin: 50px 50px 0 50px;
+  color: white;
+  font-size: 40px;
+  font-family: 'Alibaba-PuHuiTi-2';
+
+  .year {
+    font-size: 130px;
+    color: $primary-color;
+    font-family: '04b_03';
+  }
+}
+
+.paperContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 44px;
+
+  .topArea {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 20px;
+    font-size: 32px;
+
+    .highlight {
+      color: $primary-color;
+
+      &.number {
+        display: inline-block;
+        margin-left: 8px;
+        margin-right: 4px;
+        transform: translateY(1px);
+        font-size: 40px;
+        font-family: '04b_03';
+      }
+    }
+
+    .bodyText {
+      padding: 16px 32px;
+      min-height: 100px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #f4f4f4;
+      font-size: 28px;
+      word-break: break-word;
+      white-space: pre-wrap;
+
+      .quote {
+        font-size: 32px;
+        font-family: 'DingTalk-JinBuTi';
+      }
+    }
+  }
+
+  .centerArea {
+    width: 100%;
+    font-size: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+
+    .globalDeveloperCount {
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      min-width: 110px;
+      transform: translateY(1px);
+      color: $primary-color;
+      font-size: 40px;
+      font-family: '04b_03';
+    }
+  }
+
+  .bottomArea {
+    width: 100%;
+    font-size: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+
+    .left {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 20px;
+    }
+
+    .right {
+      display: flex;
+      flex-grow: 1;
+    }
+  }
+}

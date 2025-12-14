@@ -1,0 +1,145 @@
+.screenContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0 28px;
+  font-size: 26px;
+
+  .snowScreen {
+    width: 256px;
+    height: 155px;
+  }
+
+  .textTypeContainer {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    width: 256px;
+    height: 155px;
+    justify-content: center;
+  }
+
+  .textTypeLine {
+    font-size: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .textTypeInline {
+    display: inline;
+  }
+
+  .year {
+    display: inline-block;
+    margin-left: 8px;
+    margin-right: 4px;
+    transform: translateY(3px);
+    font-size: 45px;
+    color: $primary-color;
+    font-family: '04b_03';
+  }
+}
+
+.paperContent {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  font-size: 32px;
+  line-height: 50px;
+  overflow-y: auto;
+  gap: 44px;
+
+  .number {
+    display: inline-block;
+    margin-left: 8px;
+    margin-right: 4px;
+    font-size: 40px;
+    color: $primary-color;
+    font-family: '04b_03';
+    transform: translateY(1px);
+  }
+
+  .repo {
+    color: $primary-color;
+    word-break: break-all;
+  }
+
+  .title {
+    display: flex;
+    align-items: center;
+    align-self: flex-start;
+    gap: 8px;
+    font-size: 38px;
+    box-sizing: border-box;
+    padding: 44px 44px 0 44px;
+    position: relative;
+
+    .titleNumber {
+      display: inline-block;
+      margin-right: 4px;
+      font-size: 60px;
+      color: $primary-color;
+      font-family: '04b_03';
+    }
+
+    .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: rgba(255, 255, 255, 0.9);
+      pointer-events: none;
+      transition: opacity 0.3s ease;
+    }
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: auto;
+    gap: 32px;
+    box-sizing: border-box;
+    padding: 0 44px 44px 44px;
+
+    .withBackground {
+      box-sizing: border-box;
+      padding: 18px;
+      background-color: rgba(0, 0, 0, 0.08);
+    }
+
+    .firstThreeGroups {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 32px;
+    }
+
+    .group {
+      width: 100%;
+      position: relative;
+    }
+
+    .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: rgba(255, 255, 255, 0.9);
+      pointer-events: none;
+      transition: opacity 0.3s ease;
+    }
+  }
+}

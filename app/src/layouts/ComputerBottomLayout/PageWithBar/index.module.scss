@@ -1,0 +1,10 @@
+.pageWithBar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.svg {
+  width: calc(100% + 4px);
+  transform: translateX(-1px);
+}

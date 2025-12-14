@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="21px" height="36px" viewBox="0 0 21 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>形状结合</title>
+    <defs>
+        <linearGradient x1="44.4343028%" y1="0.958795939%" x2="58.5221517%" y2="101.872266%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#FEFEFE" offset="57.9652382%"></stop>
+            <stop stop-color="#E0E0E0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="第六页备份-7" transform="translate(-131, -688)" fill="#000000">
+            <g id="编组" transform="translate(131, 685.7273)">
+                <g id="编组备份-13" transform="translate(22.1875, 27) scale(-1, 1) translate(-22.1875, -27)translate(-4.8125, 0)">
+                    <path d="M41.8177813,9.77270622 L41.8177813,13.8260849 L46.5068613,13.8260849 L46.5068613,18.7455789 L50.1410037,18.7455789 L50.1410037,23.0694576 L53.3967904,23.0694576 L53.3967904,26.7472277 L56.3125085,26.7472277 L56.3125085,29.6735076 L41.3125085,29.7477062 L41.3125085,29.7727062 L38.8125085,29.7607062 L36.3125085,29.7727062 L36.3125085,29.7477062 L21.3125085,29.6735076 L21.3125085,26.7472277 L24.2282265,26.7472277 L24.2282265,23.0694576 L27.4840132,23.0694576 L27.4840132,18.7455789 L31.1181556,18.7455789 L31.1181556,13.8260849 L35.8072356,13.8260849 L35.8072356,9.77270622 L41.8177813,9.77270622 Z" id="形状结合" transform="translate(38.8125, 20.2727) scale(-1, -1) rotate(90) translate(-38.8125, -20.2727)"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

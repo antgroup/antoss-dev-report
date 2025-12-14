@@ -1,0 +1,33 @@
+<svg width="64" height="64" viewBox="0 0 128 128" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-410, -1370)">
+            <g transform="translate(474.5, 1435.5) rotate(-29) translate(-474.5, -1435.5)translate(429, 1386)">
+                <polygon fill="#FFFFFF" points="59 93 37 93 37 86 30 86 30 80 24 80 24 74 18 74 18 61 12 61 12 55 6 55 6 43 18 43 18 49 24 49 24 55 30 55 30 6 42.3414034 6 42 43 48 43 48 31 61 31 61 43 67 43 67 31 73 31 73 43 79 43 79 37 85 37 85 67 79 67 79 80 73 80 73 93"></polygon>
+                <rect fill="#000000" x="30" y="93" width="31" height="6"></rect>
+                <rect fill="#000000" x="48" y="25" width="25" height="6"></rect>
+                <rect fill="#000000" x="30" y="0" width="12" height="6"></rect>
+                <rect fill="#000000" x="30" y="86" width="7" height="7"></rect>
+                <rect fill="#000000" x="59" y="87" width="7" height="6"></rect>
+                <rect fill="#000000" x="66" y="93" width="7" height="6"></rect>
+                <rect fill="#000000" x="24" y="80" width="6" height="6"></rect>
+                <rect fill="#000000" x="18" y="74" width="6" height="6"></rect>
+                <rect fill="#000000" x="6" y="55" width="6" height="6"></rect>
+                <rect fill="#000000" x="6" y="37" width="12" height="6"></rect>
+                <rect fill="#000000" x="18" y="43" width="6" height="6"></rect>
+                <rect fill="#000000" x="79" y="31" width="6" height="6"></rect>
+                <rect fill="#000000" x="12" y="61" width="6" height="13"></rect>
+                <rect fill="#000000" x="0" y="43" width="6" height="12"></rect>
+                <rect fill="#000000" x="61" y="31" width="6" height="12"></rect>
+                <rect fill="#000000" x="85" y="37" width="6" height="30"></rect>
+                <rect fill="#000000" x="42" y="55" width="6" height="25"></rect>
+                <rect fill="#000000" x="55" y="55" width="6" height="25"></rect>
+                <rect fill="#000000" x="67" y="55" width="6" height="25"></rect>
+                <rect fill="#000000" x="73" y="80" width="6" height="19"></rect>
+                <rect fill="#000000" x="73" y="31" width="6" height="12"></rect>
+                <rect fill="#000000" x="79" y="67" width="6" height="13"></rect>
+                <rect fill="#000000" x="24" y="6" width="6" height="49"></rect>
+                <rect fill="#000000" x="42" y="6" width="6" height="37"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

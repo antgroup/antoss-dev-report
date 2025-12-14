@@ -20,7 +20,7 @@
 
 # 致谢
 
-本报告由蚂蚁开源和 OpenDigger 共同合作完成，前端代码开源在 [front_end](./front_end/)，后端数据及说明请参考 [data](./data/)。
+本报告由蚂蚁开源和 OpenDigger 共同合作完成，前端代码开源在 [front_end](./app/)，后端数据及说明请参考 [data](./data/)。
 
 <a href="https://opensource.antgroup.com/" title="蚂蚁开源 Annual Report">
   <img src="./assets/antopensource.png" alt="蚂蚁开源logo" width="120" style="display:inline-block;margin-right:20px;"/>

@@ -1,0 +1,140 @@
+.screenContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  width: 256px;
+  height: 129px;
+  font-size: 26px;
+  line-height: 1.25;
+
+  .issueNumber {
+    display: inline-block;
+    margin-left: 8px;
+    margin-right: 4px;
+    transform: translateY(3px);
+    font-size: 46px;
+    color: $primary-color;
+    font-family: '04b_03';
+
+    &.longIssueNumber {
+      font-size: 38px;
+    }
+  }
+
+  .textTypeLine {
+    font-size: 26px;
+  }
+
+  .textTypeInline {
+    display: inline;
+  }
+}
+
+.paperContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 44px;
+  font-size: 32px;
+  line-height: 55px;
+  overflow-y: auto;
+
+  /* 隐藏滚动条 */
+  &::-webkit-scrollbar {
+    display: none;
+  }
+  -ms-overflow-style: none; /* IE 和 Edge */
+  scrollbar-width: none; /* Firefox */
+
+  .number {
+    display: inline-block;
+    margin-left: 8px;
+    margin-right: 4px;
+    font-size: 40px;
+    color: $primary-color;
+    font-family: '04b_03';
+    transform: translateY(1px);
+  }
+
+  .topArea {
+    margin-bottom: -65px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+    .repo {
+      color: $primary-color;
+      word-break: break-all;
+    }
+
+    .issue {
+      text-decoration: none;
+      color: inherit;
+      transform-origin: center;
+      display: inline-block;
+
+      .issueTitle {
+        word-break: break-all;
+        // color: $primary-color;
+      }
+    }
+
+    .lastLine {
+      align-self: flex-end;
+      transform: translateX(-18px);
+    }
+  }
+
+  .resolved {
+    display: flex;
+    justify-content: space-between;
+
+    .resolvedLeft {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .resolvedRight {
+      align-self: flex-end;
+      overflow: visible; // 确保爱心不会被裁剪
+    }
+  }
+
+  .comment {
+    padding: 24px;
+    display: flex;
+    gap: 24px;
+    flex-direction: row;
+    align-items: center;
+    font-size: 28px;
+    line-height: 1.5;
+
+    .commentLeft {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 8px;
+      line-height: 1;
+      font-size: 24px;
+      word-break: break-all;
+      max-width: 120px;
+
+      .avatar {
+        width: 100px;
+      }
+
+      .login {
+        text-align: center;
+        width: 100%;
+      }
+    }
+
+    .commentRight {
+      flex: 1;
+    }
+  }
+}

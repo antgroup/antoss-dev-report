@@ -1,0 +1,32 @@
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  // 移除移动端点击高亮
+  -webkit-tap-highlight-color: transparent;
+  // 防止文本选择
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  // 优化触摸交互
+  touch-action: manipulation;
+  transition:
+    background-color 0.1s,
+    transform 0.1s;
+
+  &.pressed {
+    transform: scale(0.95);
+  }
+
+  &.disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+    pointer-events: none;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+}

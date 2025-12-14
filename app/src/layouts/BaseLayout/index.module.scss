@@ -1,0 +1,184 @@
+.overlay {
+  width: 100%;
+  height: 100%;
+
+  &::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image: linear-gradient(
+      180deg,
+      #f2f2f2 0%,
+      #ececec 44%,
+      #ececec 63%,
+      #f4f4f4 76%,
+      #d3d3d3 100%
+    );
+  }
+}
+
+.blur {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+
+  // Logo 水印图案
+  &::before {
+    content: '';
+    position: absolute;
+    // 扩大容器以覆盖旋转后的区域，确保对角线也能覆盖
+    width: 200%; // 足够大以覆盖旋转后的所有区域
+    height: 200%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(-45deg);
+    background-image: url('../../assets/ant-open-source-logo-white-margin.png');
+    background-repeat: repeat;
+    background-size: 400px auto; // 保持图片比例，增加尺寸以创建间距效果
+    background-position: 0 0;
+    opacity: 0.2; // 降低透明度，作为水印
+    pointer-events: none; // 不阻挡交互
+  }
+}
+
+.matrixRainContainer {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  // width: calc(100% - 40px); // 防止矩阵雨串超出容器一半在里面一半在外面
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  overflow: hidden; // transform 后超出父容器的部分裁切掉
+  container-type: size;
+
+  * {
+    cursor:
+      url('./custom-cursor.svg') 16 16,
+      auto !important;
+  }
+
+  @media (min-aspect-ratio: $iphone6-ratio) {
+    height: 94%;
+    // width: calc($design-ratio * 100vh * 0.94);
+    width: 750px;
+    border-radius: 16px;
+  }
+
+  .logo {
+    position: relative;
+    margin: 24px 0;
+    left: 50%;
+    height: 50px;
+    aspect-ratio: auto;
+    object-fit: contain;
+    transform: translateX(-50%);
+    backdrop-filter: blur(1px);
+    z-index: 100;
+    display: block;
+    align-self: flex-start; // 防止被stretch，logo在自身内容宽度
+  }
+}
+
+.content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1;
+  min-height: 0;
+  z-index: 1;
+}
+
+.navButton {
+  // 去除 button 原生样式
+  border: none;
+  background: none;
+  padding: 0;
+  margin: 0;
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  // 移除移动端点击高亮
+  -webkit-tap-highlight-color: transparent;
+  // 防止文本选择
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  // 优化触摸交互
+  touch-action: manipulation;
+
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  display: none; // 默认隐藏
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+  transition: all 0.3s ease;
+  user-select: none;
+
+  // 只在桌面端显示
+  @media (min-aspect-ratio: $iphone6-ratio) {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    font-size: 40px;
+  }
+
+  &:hover:not(:disabled) {
+    transform: translateY(-50%) scale(1.1);
+  }
+
+  &:active:not(:disabled) {
+    transform: translateY(-50%) scale(0.95);
+  }
+
+  &:disabled {
+    opacity: 0.3;
+    cursor: not-allowed;
+  }
+
+  &:focus {
+    outline: none;
+  }
+
+  &:focus-visible {
+    outline: 2px solid rgba(0, 0, 0, 0.3);
+    outline-offset: 2px;
+  }
+
+  img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    display: block;
+    pointer-events: none;
+  }
+}
+
+.prevButton {
+  @media (min-aspect-ratio: $iphone6-ratio) {
+    left: calc((100% - 750px) / 2 - 150px);
+  }
+}
+
+.nextButton {
+  @media (min-aspect-ratio: $iphone6-ratio) {
+    right: calc((100% - 750px) / 2 - 150px);
+  }
+}

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="704px" height="371px" viewBox="0 0 704 371" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>编组</title>
+    <defs>
+        <linearGradient x1="44.4343028%" y1="0.958795939%" x2="58.5221517%" y2="101.872266%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#FEFEFE" offset="57.9652382%"></stop>
+            <stop stop-color="#E0E0E0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.393447581">
+        <g id="设计师介入-所有项目都亮滚，不用下钻交互" transform="translate(-24, -398)" fill="#AFAFAF">
+            <g id="编组" transform="translate(-58, -204)">
+                <g transform="translate(82, 602)">
+                    <rect id="矩形" x="0" y="62" width="36" height="247"></rect>
+                    <rect id="矩形备份" x="668" y="62" width="36" height="247"></rect>
+                    <rect id="矩形备份-2" x="632" y="31" width="36" height="31"></rect>
+                    <rect id="矩形备份-4" x="36" y="31" width="36" height="31"></rect>
+                    <rect id="矩形备份-9" x="632" y="309" width="36" height="31"></rect>
+                    <rect id="矩形备份-8" x="36" y="309" width="36" height="31"></rect>
+                    <rect id="矩形备份-3" x="72" y="0" width="567" height="31"></rect>
+                    <rect id="矩形备份-5" x="176" y="321" width="352" height="31"></rect>
+                    <rect id="矩形备份-6" x="528" y="340" width="104" height="31"></rect>
+                    <rect id="矩形备份-7" x="72" y="340" width="104" height="31"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

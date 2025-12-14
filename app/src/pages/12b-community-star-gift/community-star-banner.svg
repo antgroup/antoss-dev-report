@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="440px" height="137px" viewBox="0 0 440 137" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>编组</title>
+    <defs>
+        <linearGradient x1="44.4343028%" y1="0.958795939%" x2="58.5221517%" y2="101.872266%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#FEFEFE" offset="57.9652382%"></stop>
+            <stop stop-color="#E0E0E0" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="13.3410284%" y1="44.3876396%" x2="105.985403%" y2="59.6498181%" id="linearGradient-2">
+            <stop stop-color="#FFFEF8" offset="0%"></stop>
+            <stop stop-color="#FFF7E6" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="对于社区贡献者之星（Frank-标记），展示这一页" transform="translate(-177, -879)">
+            <g id="编组" transform="translate(61, 197.4766)">
+                <g transform="translate(-0, -0.4766)" id="编组备份">
+                    <g transform="translate(63.5, 683)">
+                        <g id="编组" transform="translate(56, 2)">
+                            <path d="M431.454665,2.21335342 L434.593535,2.21335323 L434.593535,128.359935 L431.454665,128.359934 L431.454665,131.593535 L2.22412338,131.593535 L2.22412374,128.359934 L-1.25878895,128.359935 L-1.25878895,2.21335323 L2.22412374,2.21335342 L2.22412338,-1.32801118 L431.454665,-1.32801118 Z" id="路径" stroke="#000000" stroke-width="3.18706973" fill="url(#linearGradient-2)"></path>
+                            <rect id="矩形-7" fill="#FFFFFF" x="3.58545345" y="0" width="428.482787" height="4.7806046"></rect>
+                            <rect id="矩形-7备份" fill="#FFFFFF" x="3.58545345" y="125.092487" width="428.482787" height="4.7806046"></rect>
+                            <polygon id="矩形-7备份-2" fill="#FFFFFF" transform="translate(1.1952, 64.9365) rotate(-90) translate(-1.1952, -64.9365)" points="-58.5624063 63.7413946 60.9527086 63.7413946 60.9527086 66.1316969 -58.5624063 66.1316969"></polygon>
+                            <polygon id="矩形-7备份-3" fill="#FFFFFF" transform="translate(430.4747, 64.9365) rotate(-90) translate(-430.4747, -64.9365)" points="370.717148 63.7413946 490.232263 63.7413946 490.232263 66.1316969 370.717148 66.1316969"></polygon>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

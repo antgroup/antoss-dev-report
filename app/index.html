@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>2025蚂蚁开发者年度开源报告</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    <!-- rem 适配 step 1，计算设备视口 1rem 等于多少 px -->
+    <script>
+      (function (n = 10) {
+        const iphone6ratio = 375 / 667;
+        const iphone12ratio = 392 / 846;
+        const designratio = 750 / 1624;
+        const dEl = document.documentElement;
+        function setRem() {
+          const { clientWidth, clientHeight } = dEl;
+          const aspectRatio = clientWidth / clientHeight;
+          const rem = (aspectRatio > iphone6ratio ? clientHeight * designratio : clientWidth) / n;
+          dEl.style.fontSize = rem + 'px';
+        }
+        // 初始化执行
+        setRem();
+        // 视口大小变动时执行
+        window.onresize = setRem;
+      })();
+    </script>
+  </body>
+</html>

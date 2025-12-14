@@ -1,0 +1,73 @@
+.topArea {
+  position: relative;
+  padding: 37px 30px 0 30px;
+}
+
+.bottomArea {
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-bottom: 70px;
+
+  .center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    color: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(1px);
+    transform: translateY(-7px);
+
+    .folder {
+      width: 200px;
+    }
+
+    .githubLogin {
+      font-size: 70px;
+      font-family: '04b_03';
+    }
+
+    .loadingText {
+      font-size: 56px;
+
+      .dots {
+        display: inline-block;
+        margin-left: 4px;
+      }
+
+      .dot {
+        display: inline-block;
+        animation: dotBounce 1.4s infinite ease-in-out;
+        animation-fill-mode: both;
+
+        &:nth-child(1) {
+          animation-delay: 0s;
+        }
+
+        &:nth-child(2) {
+          animation-delay: 0.2s;
+        }
+
+        &:nth-child(3) {
+          animation-delay: 0.4s;
+        }
+      }
+    }
+  }
+}
+
+@keyframes dotBounce {
+  0%,
+  80%,
+  100% {
+    transform: translateY(0);
+    opacity: 0.7;
+  }
+  40% {
+    transform: translateY(-10px);
+    opacity: 1;
+  }
+}

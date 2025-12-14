@@ -1,0 +1,81 @@
+.envelopeLetter {
+  position: absolute;
+  top: -20px;
+  left: -45px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 24px;
+
+  .topArea {
+    .user {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 24px;
+      z-index: 1;
+      transform: translateY(60px);
+
+      .login {
+        font-size: 32px;
+      }
+
+      .avatarContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .avatar {
+          width: 155px;
+        }
+
+        .goldMedal {
+          width: 55px;
+          transform: translateY(-11px);
+        }
+      }
+    }
+
+    .podium {
+      width: 603px;
+      transform: translateX(-10px);
+    }
+  }
+
+  .bottomArea {
+    display: flex;
+    flex-direction: column;
+    font-size: 36px;
+    line-height: 70px;
+
+    .number {
+      display: inline-block;
+      margin-left: 8px;
+      margin-right: 4px;
+      color: $primary-color;
+      font-family: '04b_03';
+      font-size: 40px;
+      line-height: 50px;
+    }
+
+    .strong {
+      color: $primary-color;
+    }
+  }
+}
+
+.newStory {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  font-size: 26px;
+  backdrop-filter: blur(20px);
+  @include hide-in-short-screen;
+}
