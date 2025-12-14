@@ -18,7 +18,7 @@
 
 ## 贡献度和段位的统计方法？
 
-本次报告的贡献度来自于开发者 2025 年在 GitHub 全域上的 OpenRank 值，段位根据 OpenRank 排名，按照 x%、 x%、x%、x%、x% 的比例划分为六个档位。
+本次报告的贡献度来自于开发者 2025 年在 GitHub 全域上的 OpenRank 值，段位根据 OpenRank 排名，按照 50%, 12%, 8%,  5%, 3% 和 1% 的比例划分为六个档位。
 
 [OpenRank](https://open-digger.cn/docs/user_docs/metrics/community_openrank) 统计算法，是一种基于 Issue 与 PR 协作的图模型算法。算法的设计原理和 PageRank 类似，开发者在影响力更高的仓库中贡献，在仓库中拥有更高的贡献比例，以及与影响力更高的开发者产生协作关联，都能使其贡献度（OpenRank 值）有效提升。
 
@@ -38,6 +38,6 @@
 
 有关数据缺失问题的描述和讨论，还可参考：
 - https://github.com/orgs/community/discussions/178788
--
+- https://github.com/orgs/community/discussions/181678
 
-我们已经为蚂蚁的大部分开源项目安装了 [OpenDigger Data App](https://github.com/apps/open-digger-data-app)，用于从 GitHub REST API 采集和回溯缺失的数据，但是在没有安装 App 的仓库中进行的贡献，仍然会被遗漏。如果你是某个项目的 Owner，建议安装 App 以获得更准确的项目贡献度统计情况。
+我们已经为蚂蚁的大部分开源项目安装了 [OpenDigger Data App](https://github.com/apps/open-digger-data-app)，用于从 GitHub GraphQL API 采集和回溯缺失的数据，但是在没有安装 App 的仓库中进行的贡献，仍然会被遗漏。如果你是某个项目的 Owner，建议安装 App 以获得更准确的项目贡献度统计情况。
