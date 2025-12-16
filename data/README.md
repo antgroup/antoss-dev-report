@@ -18,7 +18,9 @@
 
 ## 贡献度和段位的统计方法？
 
-本次报告的贡献度来自于开发者 2025 年在 GitHub 全域上的 OpenRank 值，段位根据 OpenRank 排名，按照 1%, 3%, 5%, 8%, 50%, 12% 的比例划分为六个档位：最强王者，永恒钻石，尊贵铂金，荣耀黄金，倔强青铜，秩序白银。
+本次报告的贡献度来自于开发者 2025 年在 GitHub 全域上的 OpenRank 值，段位根据 OpenRank 排名，按照 1%, 3%, 5%, 8%, 12%, 50% 的比例划分为六个档位：最强王者，永恒钻石，尊贵铂金，荣耀黄金，秩序白银，倔强青铜。
+
+<img alt="贡献度段位划分信息图" src="https://github.com/user-attachments/assets/97cc3bbb-bcf1-41e4-a0ca-c83ed776b5d7" style="max-width: 100%;" />
 
 [OpenRank](https://open-digger.cn/docs/user_docs/metrics/community_openrank) 统计算法，是一种基于 Issue 与 PR 协作的图模型算法。算法的设计原理和 PageRank 类似，开发者在影响力更高的仓库中贡献，在仓库中拥有更高的贡献比例，以及与影响力更高的开发者产生协作关联，都能使其贡献度（OpenRank 值）有效提升。
 
