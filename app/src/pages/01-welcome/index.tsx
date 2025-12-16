@@ -312,7 +312,7 @@ const WelcomePage = () => {
             type="text"
             placeholder="输入 GitHub ID 开启年报"
             value={userId}
-            onChange={(e) => setUserId(e.target.value)}
+            onChange={(e) => setUserId(e.target.value.trim())}
             onKeyDown={handleKeyDown}
             onKeyUp={handleKeyUp}
           />
